@@ -12,8 +12,6 @@ AutoGenWomenImages は、先進的なAIモデルを使用して女性の高品�
 - [ディレクトリ構造](#ディレクトリ構造)
 - [貢献](#貢献)
 - [ライセンス](#ライセンス)
-- [お問い合わせ](#お問い合わせ)
-- [免責事項](#免責事項)
 
 ## 特徴
 
@@ -42,7 +40,7 @@ AutoGenWomenImages は、先進的なAIモデルを使用して女性の高品�
 1. **リポジトリをクローン**
 
    ```bash
-   git clone https://github.com/yourusername/auto_gen_women_images.git
+   git clone https://github.com/c-table-inc/auto_gen_women_images.git
    cd auto_gen_women_images
    ```
 
