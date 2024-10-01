@@ -1,0 +1,4 @@
+langchain
+langchain-aws
+langchain-openai
+langchain-core
