@@ -237,10 +237,249 @@ if __name__ == "__main__":
             "actress": "Mia Sara",
             "age_at_time": 18,
             "scene_description": "シカゴの高層ビルの展望台で、白いサマードレスを着た女性がガラス窓に手をつきながら、街の景色を眺めている。背景にはシカゴの美しいスカイラインが広がり、リラックスした雰囲気が漂う。"
+        },
+        {
+            "title": "To Catch a Thief",
+            "actress": "Grace Kelly",
+            "age_at_time": 26,
+            "scene_description": "リビエラの豪華なホテルのバルコニーで、シルクのガウンを羽織った女性が、夜空を眺めている。背景には地中海の美しい夜景が広がり、彼女の優雅な姿が際立つ。"
+        },
+        {
+            "title": "Dr. No",
+            "actress": "Ursula Andress",
+            "age_at_time": 26,
+            "scene_description": "白いビキニを着た女性が、海辺から上がってくるシーン。背景には青い海と白い砂浜が広がり、太陽の光が彼女を照らしている。"
+        },
+        {
+            "title": "Body Heat",
+            "actress": "Kathleen Turner",
+            "age_at_time": 27,
+            "scene_description": "暑い夏の夜、ベッドルームの窓辺で、薄手のシルクドレスを着た女性が風に髪をなびかせながら外を眺めている。背景には蒸し暑い夜の雰囲気が漂う。"
+        },
+        {
+            "title": "Cat People",
+            "actress": "Nastassja Kinski",
+            "age_at_time": 22,
+            "scene_description": "都会の屋上プールで、黒い水着を着た女性がプールサイドに座り、夜景を見つめている。背景にはニューヨークのネオンが輝き、神秘的でセクシーな雰囲気が漂う。"
+        },
+        {
+            "title": "Some Like It Hot",
+            "actress": "Marilyn Monroe",
+            "age_at_time": 33,
+            "scene_description": "高級ナイトクラブのステージで、煌びやかなドレスを着た女性がマイクを手にして歌っている。背景にはバンドと観客が見守り、彼女の魅力的な笑顔が輝いている。"
+        },
+        {
+            "title": "Carrie",
+            "actress": "Sissy Spacek",
+            "age_at_time": 27,
+            "scene_description": "高校のプロム会場で、華やかなドレスを着た女性がステージの中央に立ち、スポットライトを浴びている。背景には赤いカーテンとシャンデリアが輝き、彼女の儚げな美しさが際立つ。"
+        },
+        {
+            "title": "Risky Business",
+            "actress": "Rebecca De Mornay",
+            "age_at_time": 24,
+            "scene_description": "夜の電車の車内で、シンプルなドレスを着た女性がシートに腰掛け、窓の外の夜景を見つめている。背景にはニューヨークの街並みが流れ、彼女のセクシーでミステリアスな雰囲気が漂う。"
+        },
+        {
+            "title": "Basic Instinct",
+            "actress": "Sharon Stone",
+            "age_at_time": 34,
+            "scene_description": "モダンなリビングルームの椅子に座り、足を組み替えながら微笑む女性。背景にはモノクロームのインテリアが広がり、彼女の自信と挑発的な魅力が際立つ。"
+        },
+        {
+            "title": "Bonnie and Clyde",
+            "actress": "Faye Dunaway",
+            "age_at_time": 26,
+            "scene_description": "アメリカ南部の乾いた風景の中、ヴィンテージカーのボンネットにもたれかかり、スカートをひるがえす女性。背景には砂埃が舞い、彼女の視線は遠くの地平線に向かっている。"
+        },
+        {
+            "title": "Working Girl",
+            "actress": "Melanie Griffith",
+            "age_at_time": 31,
+            "scene_description": "高層ビルのオフィスで、タイトなビジネススーツを着た女性が窓際に立ち、ニューヨークの街並みを見下ろしている。背景には朝の光が差し込み、彼女の自信と美しさが映える。"
+        },
+        {
+            "title": "Vertigo",
+            "actress": "Kim Novak",
+            "age_at_time": 25,
+            "scene_description": "サンフランシスコの高台から、霧に包まれた街を見つめる女性。背景にはゴールデンゲートブリッジがぼんやりと見え、彼女の孤独感と神秘的な美しさが際立つ。"
+        },
+        {
+            "title": "Klute",
+            "actress": "Jane Fonda",
+            "age_at_time": 33,
+            "scene_description": "都会の薄暗いアパートの窓辺に立ち、夜景を眺める女性。背景にはネオンの明かりが映り込み、彼女の横顔には複雑な感情が漂う。"
+        },
+        {
+            "title": "Shampoo",
+            "actress": "Julie Christie",
+            "age_at_time": 34,
+            "scene_description": "カリフォルニアのビーチハウスで、カジュアルなシャツを着た女性がデッキチェアに座り、太陽の下でリラックスしている。背景には海と青空が広がり、リラックスした雰囲気が漂う。"
+        },
+        {
+            "title": "Beverly Hills Cop",
+            "actress": "Lisa Eilbacher",
+            "age_at_time": 28,
+            "scene_description": "高級なプールサイドで、白い水着を着た女性がラウンジチェアに横たわり、サングラスをかけている。背景にはパームツリーと豪邸が映り、彼女のリラックスした姿が際立つ。"
+        },
+        {
+            "title": "The Color of Money",
+            "actress": "Mary Elizabeth Mastrantonio",
+            "age_at_time": 28,
+            "scene_description": "ビリヤード場で、カジュアルなシャツを着た女性がビリヤードテーブルに寄りかかりながら、キューを手にしている。背景にはネオンライトが輝き、彼女の自信に満ちた表情が映える。"
+        },
+        {
+            "title": "Giant",
+            "actress": "Elizabeth Taylor",
+            "age_at_time": 24,
+            "scene_description": "広大なテキサスの牧場で、ロングドレスを着た女性が馬に乗り、風を感じながら地平線を見つめている。背景には広がる砂漠と青空が広がり、彼女の自由で大胆な姿が描かれる。"
+        },
+        {
+            "title": "Grease",
+            "actress": "Olivia Newton-John",
+            "age_at_time": 29,
+            "scene_description": "アメリカのドライブインシアターで、タイトな黒のパンツを履いた女性が、ヴィンテージカーのフードに腰掛けている。背景には映画のスクリーンと古い車が並び、彼女のカジュアルでセクシーなスタイルが映える。"
+        },
+        {
+            "title": "Raiders of the Lost Ark",
+            "actress": "Karen Allen",
+            "age_at_time": 29,
+            "scene_description": "エジプトの砂漠で、冒険的な服装をした女性が、古代遺跡の前に立ち、広大な風景を見渡している。背景には砂丘とピラミッドが並び、彼女の強さと魅力が際立つ。"
+        },
+        {
+            "title": "Butch Cassidy and the Sundance Kid",
+            "actress": "Katharine Ross",
+            "age_at_time": 29,
+            "scene_description": "西部の荒野で、古びたフェンスに寄りかかり、カウボーイハットをかぶった女性が遠くを見つめている。背景には広がる草原と青空があり、彼女の落ち着いた雰囲気が漂う。"
+        },
+        {
+            "title": "Dirty Dancing",
+            "actress": "Jennifer Grey",
+            "age_at_time": 27,
+            "scene_description": "夏のリゾートで、カジュアルなサマードレスを着た女性がダンスフロアで軽やかに踊っている。背景には緑豊かな森と湖が広がり、彼女の楽しげな笑顔が印象的。"
+        },
+        {
+            "title": "Tootsie",
+            "actress": "Jessica Lange",
+            "age_at_time": 33,
+            "scene_description": "ニューヨークのアパートで、カジュアルなニットを着た女性が窓辺に立ち、夕陽を見つめる。背景には、都市のスカイラインがオレンジ色に染まり、彼女の表情には希望と憂いが漂う。"
+        },
+        {
+            "title": "Romancing the Stone",
+            "actress": "Kathleen Turner",
+            "age_at_time": 30,
+            "scene_description": "ジャングルの中で、シャツをボタンを開けた女性が川沿いに立っている。背景には流れる川と木々が生い茂り、冒険心あふれる彼女の姿が映える。"
+        },
+        {
+            "title": "Thelma & Louise",
+            "actress": "Geena Davis",
+            "age_at_time": 35,
+            "scene_description": "砂漠のハイウェイ沿いで、タンクトップを着た女性がヴィンテージカーに寄りかかっている。背景には乾いた大地と青い空が広がり、彼女の表情には自由と挑戦の心が感じられる。"
+        },
+        {
+            "title": "Body Heat",
+            "actress": "Kathleen Turner",
+            "age_at_time": 27,
+            "scene_description": "暑い夏の夜、ビーチハウスのテラスで、白いドレスを纏った女性が風に吹かれながら佇んでいる。背景には波打ち際と月明かりが照らす海があり、彼女のシルエットが魅惑的に浮かび上がる。"
+        },
+        {
+            "title": "Wild at Heart",
+            "actress": "Laura Dern",
+            "age_at_time": 23,
+            "scene_description": "アメリカ南部の田舎道で、赤いドレスを着た女性が車のボンネットに座り、ギターを弾いている。背景には広がる青空と乾いた風景が映え、彼女の自由なエネルギーが感じられる。"
+        },
+        {
+            "title": "Risky Business",
+            "actress": "Rebecca De Mornay",
+            "age_at_time": 24,
+            "scene_description": "豪邸のリビングルームで、シルクのブラウスとタイトスカートを着た女性が大きな窓の前に立ち、夜景を見つめている。背景には、シカゴの高層ビルが広がり、彼女の視線には未来への期待が込められている。"
+        },
+        {
+            "title": "Sayonara",
+            "actress": "Miyoshi Umeki",
+            "age_at_time": 28,
+            "scene_description": "京都の伝統的な庭園で、着物を着た女性が池のほとりに立っている。背景には紅葉と灯籠が美しく配置され、彼女の静かな微笑みが風景と調和している。"
+        },
+        {
+            "title": "American Gigolo",
+            "actress": "Lauren Hutton",
+            "age_at_time": 37,
+            "scene_description": "カリフォルニアの高級マンションで、エレガントなシルクのガウンを着た女性がプールサイドでリラックスしている。背景には夕暮れのロサンゼルスの景色が広がり、彼女の余裕ある姿が映える。"
+        },
+        {
+            "title": "10",
+            "actress": "Bo Derek",
+            "age_at_time": 23,
+            "scene_description": "トロピカルなビーチで、白い水着を着た女性が砂浜に横たわり、波の音を聞きながらリラックスしている。背景にはヤシの木と青い海が広がり、彼女の解放感あふれる表情が特徴的。"
+        },
+        {
+            "title": "Cat People",
+            "actress": "Nastassja Kinski",
+            "age_at_time": 21,
+            "scene_description": "夜の動物園で、黒いコートを纏った女性が檻の前に立っている。背景には青い月明かりに照らされた動物たちの影が映り、彼女の神秘的な表情が浮かび上がる。"
+        },
+        {
+            "title": "The Grifters",
+            "actress": "Annette Bening",
+            "age_at_time": 32,
+            "scene_description": "古いラスベガスのカジノで、エレガントなドレスを着た女性がバーに腰掛けている。背景にはネオンライトが煌めき、彼女の挑発的な微笑みが人々の視線を引きつける。"
+        },
+        {
+            "title": "Vertigo",
+            "actress": "Kim Novak",
+            "age_at_time": 25,
+            "scene_description": "サンフランシスコの古い教会で、黒いドレスを着た女性が鐘楼を見上げている。背景には霧が立ち込め、彼女の緊張感あふれる表情が印象的に映る。"
+        },
+        {
+            "title": "Last Tango in Paris",
+            "actress": "Maria Schneider",
+            "age_at_time": 20,
+            "scene_description": "パリのアパートの一室で、シンプルなシャツを着た女性が床に座り込んでいる。背景にはアンティークな家具と古びた壁があり、彼女の表情には複雑な感情が映る。"
+        },
+        {
+            "title": "Married to the Mob",
+            "actress": "Michelle Pfeiffer",
+            "age_at_time": 30,
+            "scene_description": "ニューヨークの小さなカフェで、ヴィンテージのジャケットを羽織った女性が窓際に座り、外の景色を眺めている。背景には古い街並みが広がり、彼女の表情には少しの不安と希望が混じっている。"
+        },
+        {
+            "title": "Baby Doll",
+            "actress": "Carroll Baker",
+            "age_at_time": 25,
+            "scene_description": "田舎の農場のポーチで、白いサンドレスを着た女性が揺り椅子に座りながら、遠くの空を見つめている。背景には古い納屋と広がる畑があり、彼女の純粋な魅力が際立つ。"
+        },
+        {
+            "title": "Basic Instinct",
+            "actress": "Sharon Stone",
+            "age_at_time": 34,
+            "scene_description": "モダンなインテリアの部屋で、白いシルクのドレスを着た女性がソファに座り、足を組んでいる。背景にはシンプルで高級感のある家具が配置され、彼女の自信とミステリアスな表情が印象的。"
+        },
+        {
+            "title": "Peggy Sue Got Married",
+            "actress": "Kathleen Turner",
+            "age_at_time": 32,
+            "scene_description": "小さなアメリカの街並みを背景に、ヴィンテージドレスを着た女性が高校の校庭に立ち、遠くを見つめている。背景にはレンガ造りの建物と青い空が広がり、彼女の表情には過去への思いが込められている。"
+        },
+        {
+            "title": "Shampoo",
+            "actress": "Goldie Hawn",
+            "age_at_time": 30,
+            "scene_description": "カリフォルニアの美容院で、白いワンピースを着た女性が鏡の前に立ち、髪を整えている。背景にはカラフルな内装と観葉植物が配置され、彼女の明るく無邪気な笑顔が映える。"
+        },
+        {
+            "title": "Moonstruck",
+            "actress": "Cher",
+            "age_at_time": 41,
+            "scene_description": "ニューヨークの月明かりの下で、黒いドレスを纏った女性がバルコニーに立ち、夜空を見上げている。背景にはマンハッタンのビル群と煌く星が広がり、彼女の表情には静かな決意が感じられる。"
+        },
+        {
+            "title": "Desperately Seeking Susan",
+            "actress": "Madonna",
+            "age_at_time": 27,
+            "scene_description": "ニューヨークのダウンタウンで、レザージャケットとショートパンツを着た女性が街角に立ち、通りを歩く人々を眺めている。背景にはグラフィティアートと古いレンガの建物があり、彼女の反骨精神と自由な雰囲気が漂う。"
         }
     ]
 
-    start_timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     for movie in movies_data:
         try:
             print(f"Processing movie: {movie['title']}")
@@ -255,7 +494,8 @@ if __name__ == "__main__":
             print(f"Revised Prompt: {revised_prompt}")
             
             ## 画像生成
-            revision_no = f"{start_timestamp}_{movie['title'].replace(' ', '_')}"
+            revision_no = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+
             image_file = generate_image_from_prompt(revised_prompt, revision_no, {})
             print(f"Image file: {image_file}")
         except Exception as e:
