@@ -38,14 +38,15 @@ Revise the following image generation prompt to optimize it for Stable Diffusion
     Please consider the following guidelines in your revision:
     1. prompt must be include 1 girl
     2. prompt must be include A detailed close-up of a beautiful female character for a game icon.
-    3. Be specific and descriptive, using vivid adjectives and clear nouns.
-    4. Include details about composition, lighting, style, and mood.
-    5. Mention specific artists or art styles if relevant.
-    6. Use keywords like "highly detailed", "4k", "8k", or "photorealistic" if appropriate.
-    7. Separate different concepts with commas.
-    8. Place more important elements at the beginning of the prompt.
-    9. Use weights (e.g., (keyword:1.2)) for emphasizing certain elements if necessary.
-    10. If the original prompt is not in English, translate it to English. 
+    3. background should be simple and not distracting.
+    4. Be specific and descriptive, using vivid adjectives and clear nouns.
+    5. Include details about composition, lighting, style, and mood.
+    6. Mention specific artists or art styles if relevant.
+    7. Use keywords like "highly detailed", "4k", "8k", or "photorealistic" if appropriate.
+    8. Separate different concepts with commas.
+    9. Place more important elements at the beginning of the prompt.
+    10. Use weights (e.g., (keyword:1.2)) for emphasizing certain elements if necessary.
+    11. If the original prompt is not in English, translate it to English. 
     Your goal is to create a clear, detailed prompt that will result in a high-quality image generation with Stable Diffusion.
     Please provide your response in the following JSON format:
     {{"revised_prompt":"<Revised Prompt>"}}
