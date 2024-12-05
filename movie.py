@@ -1,12 +1,12 @@
 from langchain_aws import ChatBedrock
-from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate
+# from langchain_openai import ChatOpenAI
+# from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.prompts.chat import HumanMessagePromptTemplate
+# from langchain_core.prompts.chat import HumanMessagePromptTemplate
 import datetime
 import random
-import json
+# import json
 import base64
 import requests
 
@@ -88,7 +88,8 @@ def enhance_prompt(original_prompt, claude_enhance_params):
 
 def generate_image_from_prompt(prompt, revision_no ,model_params={}):
 
-    url = "http://127.0.0.1:7860"
+    # url = "http://127.0.0.1:7860"
+    url = "http://192.168.68.123:7861"
 
     seed = random.randint(0, 4294967295)
 
@@ -98,8 +99,8 @@ def generate_image_from_prompt(prompt, revision_no ,model_params={}):
         "seed": seed,
         "quality": 1.0,
         "steps": 30,
-        "height": 960,
-        "width": 540,
+        "height": 1280,
+        "width": 720,
         "restore_faces": True,
     }
 

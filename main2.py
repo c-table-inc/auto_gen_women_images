@@ -65,14 +65,14 @@ def enhance_prompt(original_prompt, claude_enhance_params):
     このコンテキストを基に、以下の手順で作業を進めてください：
 
     1. 与えられたコンテキストを注意深く分析し、主要な要素や雰囲気を把握してください。
-    2. コンテキストから想像できる様々な情景、感情、細部を考えてください。
+    2. コンテキストから連想できる様々なアイデアやイメージをブレインストーミング
     3. 視覚的に豊かで、画像生成に適した表現を使用してください。
     4. 100文字程度の日本語の文章にまとめてください。
     5. 出力はjson形式を使用してください。
 
     良い出力の例：
-    - 「夕暮れの海岸で、波の音を聴きながら砂浜を歩く若いカップル。オレンジ色の空を背景に、二人の影が長く伸びている。」
-    - 「雪に覆われた静かな森の中、一匹の狐が足跡を残しながらそっと歩いている。枝から落ちる雪の結晶が、月明かりに輝いている。」
+    - 「若い女性が、足を広げてこちらを見ている」
+    - 「ブロンドの女性が、制服姿でこちらを見ている」
 
     まず、<inner_monologue>タグ内で、コンテキストから連想できる様々なアイデアやイメージをブレインストーミングしてください。その後、最も適切で視覚的に魅力的な要素を選び、100文字程度の日本語の文章にまとめてください。
 
@@ -169,13 +169,15 @@ def generate_image_from_prompt(prompt, revision_no ,model_params={}):
 
     payload = {
         "prompt": prompt,
-        "negative_prompt": "easynegative, illustration,naked, paintings, sketches, bokeh, blur, (low quality:1.6), (normal quality:1.6), (worst quality:1.6), bad shadow, low res, jean, (monochrome, grayscale), polydactylism, skin spot, acnes, skin blemishes, age spot, (extra hands), (bad anatomy:1.5), brand, ((watermark:1.4)), bad feet, poorly drawn hands, poorly drawn face, mutation, Double vision in both eyes, bad eyes ratio, bad eyes size, bad eyes,deformed, bad proportions, gross proportions, missing arms, missing legs, extra digit, extra arms, extra leg, extra foot, ((multiple arms, multiple fingers, broken fingers)), ng_deepnegative_v1_75t, (muscles), (nipple over clothes),(nipples sticking out of clothes),(Belly button on clothes),excessive abs,bad-hands-5",
+        "negative_prompt": "easynegative, naked, nsfw, illustration, paintings, sketches, bokeh, blur, (low quality:1.6), (normal quality:1.6), (worst quality:1.6), bad shadow, low res, jean, (monochrome, grayscale), polydactylism, skin spot, acnes, skin blemishes, age spot, (extra hands), (bad anatomy:1.5), brand, ((watermark:1.4)), bad feet, poorly drawn hands, poorly drawn face, mutation, Double vision in both eyes, bad eyes ratio, bad eyes size, bad eyes,deformed, bad proportions, gross proportions, missing arms, missing legs, extra digit, extra arms, extra leg, extra foot, ((multiple arms, multiple fingers, broken fingers)), ng_deepnegative_v1_75t, (muscles), (nipple over clothes),(nipples sticking out of clothes),(Belly button on clothes),excessive abs,bad-hands-5",
         "seed": seed,
         "quality": 1.0,
         "steps": 30,
         "height": 1280,
         "width": 720,
         "restore_faces": True,
+        "enable_hr": True,
+        "hr_scale": 2,
     }
 
     response = requests.post(url=f'{url}/sdapi/v1/txt2img', json=payload)
