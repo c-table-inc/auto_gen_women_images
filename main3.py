@@ -45,7 +45,6 @@ First, carefully analyze the original prompt, paying attention to the descriptio
 Now, create a new prompt that:
 1. Keeps the woman's face exactly the same as described in the original prompt
 2. Modifies one or more of the following aspects:
-   - Country of origin
    - Age
    - Hair style
    - Eye color
@@ -106,22 +105,16 @@ if __name__ == "__main__":
 
 
     original_prompt = """
-score_9, score_8_up, score_7_up, score_6_up, 
-1girl, 25 years old, perfect face, (adult), sexy,
-purple eyes, 
-multicolored hair, colored inner hair, white hair, purple glowing hair, purple glowing scarf, 
-white sweater, long sweater, long sleeves,
-purple nails, 
-purple skirt, layered skirt, 
-white thighhighs, 
-winter, snow, snowing, snowflakes,
-blush, dynamic pose, dynamic angle,
-night, dark
+best quality, face focus, soft light, ultra high res, (photorealistic:1.4), RAW photo,
+1japanese girl, solo, cute, (pupil, lights in the eyes),  detailed beautiful face, (small chest),(high resolution detail of human skin texture),
+(long hair),
+sit couch,
+school uniform, charcoal vest, skirt,
+(upper thigh)
 """
 
     negative_prompt = """
-score_6, score_5, score_4, pony, furry, monochrome, curvy, fat, pubic hair, watermark, 
-artist name, ugly, ugly face, mutated hands, low res, bad anatomy, bad eyes, blurry face, unfinished, sketch, greyscale, (deformed), (child), (loli), large bimbo lips, very big eyes, (young), midriff, naked, navel, dark skin,
+short shirt, painting,sketches,(worst quality:2),(low quality:2),(normal quality:2),((monochrome)),((grayscale)), missing fingers ,skin spots ,acnes,skin blemishes,loli
 """
 
     for i in range(30):
