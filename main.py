@@ -1,5 +1,5 @@
 from langchain_aws import ChatBedrock
-# from langchain_openai import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import HumanMessage
 from langchain_core.output_parsers import StrOutputParser
@@ -12,13 +12,13 @@ import requests
 
 def claude_invoke_model(prompt, image_media_type=None, image_data_base64=None, model_params={}):
     
-    llm = ChatBedrock(
-        region_name='us-east-1',
-        model_id='anthropic.claude-3-sonnet-20240229-v1:0',
-        # model_id='anthropic.claude-3-haiku-20240307-v1:0',
-    )
+    # llm = ChatBedrock(
+    #     region_name='us-east-1',
+    #     model_id='anthropic.claude-3-sonnet-20240229-v1:0',
+    #     # model_id='anthropic.claude-3-haiku-20240307-v1:0',
+    # )
 
-    # llm = ChatOpenAI(model="gpt-4o")
+    llm = ChatOpenAI(model="gpt-4o-mini")
 
     messages = [
         # SystemMessage(content="ユーザーから与えられたプロンプトをSDXLで画像を生成するためのプロンプトに変換してください。"),

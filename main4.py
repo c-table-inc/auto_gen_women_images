@@ -44,21 +44,14 @@ First, carefully analyze the original prompt, paying attention to the descriptio
 
 Now, create a new prompt that:
 1. Keeps the woman's face exactly the same as described in the original prompt
-2. Modifies one or more of the following aspects:
-   - Country of origin(not include asian and black)
-   - Age
-   - Hair style
-   - Eye color
-   - Skin tone
-   - Body type
-   - Facial expression
-   - Background
-   - Hair color
-   - Clothing
-   - Pose
+2. Modifies all of the following aspects:
+   - Clothing (e.g., style, color, fit)(note: no nudity or explicit content and no breast exposure)
+   - Pose (e.g., spread legs, back arch, sitting on a chair, kneeling, lying down, etc.)
    - Camera angle
-3. Adds elements to make the overall image slightly sexier, without being explicit or inappropriate
-4. Maintains the general style and mood of the original prompt
+3. Adds elements to make the overall image slightly sexy, without being explicit or inappropriate
+4. Add elements (looking at me from behind)
+5. Add elements (T-shirts, wet:1.2)
+6. Maintains the general style and mood of the original prompt
 
 When crafting your new prompt:
 - Use vivid, descriptive language to clearly convey the desired changes
@@ -75,7 +68,8 @@ Remember, your goal is to create an engaging variation that showcases a differen
 
 def generate_image_from_prompt(prompt, negative , revision_no ,model_params={}):
     # url = "http://127.0.0.1:7860"
-    url = "http://192.168.68.120:7860"
+    url = "http://192.168.68.114:7860"
+    # url = "https://4d06-60-104-55-99.ngrok-free.app/"
 
 
     seed = random.randint(0, 4294967295)
@@ -85,9 +79,9 @@ def generate_image_from_prompt(prompt, negative , revision_no ,model_params={}):
         "negative_prompt": negative,
         "seed": seed,
         "quality": 1.0,
-        "steps": 30,
-        "height": 840,
-        "width": 480,
+        "steps": 35,
+        "height": 1280,
+        "width": 720,
         "restore_faces": True,
     }
 
@@ -106,22 +100,25 @@ def generate_image_from_prompt(prompt, negative , revision_no ,model_params={}):
 if __name__ == "__main__":
 
 
+#     original_prompt = """
+# Tifa Lockhart, 1girl, detailed skin, looking at viewer, (red eyes:1.2), wearing coat and shirt, from side,
+# """
     original_prompt = """
-best quality, face focus, soft light, ultra high res, (photorealistic:1.4), RAW photo,
-1girl, solo, charming expression, detailed beautiful face, (pupil, lights in the eyes), (long wavy red hair), (green eyes), (tanned skin),
-(medium breast size), (curvy figure),
-lie bed, (lace lingerie),
-(dimly lit bedroom), (ambient lighting),
-candid portrait shot from side angle
+In the bathroom, a big-breasted woman with slightly wet blonde hair and blue eyes is looking at me from behind, wearing a T-shirt, Short pants, and fishnet stockings. Please put on her underwear.
 """
 
     negative_prompt = """
-short shirt, painting,sketches,(worst quality:2),(low quality:2),(normal quality:2),((monochrome)),((grayscale)), missing fingers ,skin spots ,acnes,skin blemishes,loli,nsfw,naked
+easynegative, nsfw, score_6,score_5,score_4,(worst quality:2),(low quality:1.5),(normal quality:2),bad anatomy,(artificial skin texture:1.8),poorly drawn face,poorly drawn detailed,(five-fingers),(sticky fingers:1.3),(bad finger:1.3),(bad hands:1.3),(bad fingers:1.3),(missing fingers:1.2),bad hands,poorly drawn hands,(bad fingernail:1.2),(ugly fingernail:1.2),fewer digits,source_furry,source_pony,source_cartoon,3d,blurry,(unpleasant sight),(monolids),(cross-eyed),(strabismus),(unclear eyes),(ugly eyes),(leaning eyes),(slanted eyes, upturned eyes),(unbalanced eyes),(big eyes),(small eyes),(wonky eyes),(ugly teeth:1.3),(cleft chin:1.4),(butt chin:1.4),(ugly chin),(ribs),(bad pussy:1.2),(ugly pussy:1.2),(bad anal:1.2),(ugly anal:1.2),(foundation ,makeup:1.3),(rouge, mascara:1.3),(eyelashes, false eyelashes, eyeliner:1.3),(wrinkle:1.3),watermark,logo,(claws:1.5),
 """
 
-    for i in range(30):
+    for i in range(50):
         prompt = enhance_prompt(original_prompt, {})
-        prompt = prompt.split("<output>")[1].split("</output>")[0]
+        try:
+            prompt = prompt.split("<output>")[1].split("</output>")[0]
+        except:
+            print(f"Error: {prompt}")
+            continue
+
         print(f"Enhanced Prompt: {prompt}")
 
         start_timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
